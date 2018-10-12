@@ -1,0 +1,38 @@
+!URxvt.font: xft:siji:pixelsize=10
+URxvt.font: curie:style=Regular
+! special
+*.foreground:   8fbcbb
+*.background:   2e3440
+*.cursorColor:  8fbcbb
+
+! black
+*.color0:       2e3440
+*.color8:      	88c0d0
+
+! red
+*.color1:       3b4252
+*.color9:       81a1c1
+
+! green
+*.color2:       434c5e
+*.color10:      5e81ac
+
+! yellow
+*.color3:       4c566a
+*.color11:      bf616a
+
+! blue
+*.color4:       d8dee9
+*.color12:      d08770
+
+! magenta
+*.color5:       e5e9f0
+*.color13:      ebcb8b
+
+! cyan
+*.color6:       eceff4
+*.color14:      a3be8c
+
+! white
+*.color7:       8fbcbb
+*.color15:      b48ead
