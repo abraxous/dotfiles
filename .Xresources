@@ -1,5 +1,5 @@
 !URxvt.font: xft:siji:pixelsize=10
-URxvt.font: curie:style=Regular
+URxvt.font: curie
 #define nord0 #2E3440
 #define nord1 #3B4252
 #define nord2 #434C5E

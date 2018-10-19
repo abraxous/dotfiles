@@ -13,7 +13,7 @@ static const float    resize_keep_aspect_ratio= 1.03;
 ///---Offsets---///
 /*0)offsetx          1)offsety
  *2)maxwidth         3)maxheight */
-static const uint8_t offsets[] = {0,0,0,0};
+static const uint8_t offsets[] = {0,30,0,30};
 ///---Colors---///
 /*0)focuscol         1)unfocuscol
  *2)fixedcol         3)unkilcol
@@ -32,7 +32,7 @@ static const bool inverted_colors = true;
 /*0) Outer border size. If you put this negative it will be a square.
  *1) Full borderwidth    2) Magnet border size
  *3) Resize border size  */
-static const uint8_t borders[] = {3,5,5,4};
+static const uint8_t borders[] = {5,7,2,3};
 /* Windows that won't have a border.
  * It uses substring comparison with what is found in the WM_NAME
  * attribute of the window. You can test this using `xprop WM_NAME`
@@ -194,8 +194,8 @@ static key keys[] = {
        DESKTOPCHANGE(     XK_6,                             5)
        DESKTOPCHANGE(     XK_7,                             6)
        DESKTOPCHANGE(     XK_8,                             7)
-       DESKTOPCHANGE(     XK_9,                             8)
-       DESKTOPCHANGE(     XK_0,                             9)
+//       DESKTOPCHANGE(     XK_9,                             8)
+//       DESKTOPCHANGE(     XK_0,                             9)
 };
 // the last argument makes it a root window only event
 static Button buttons[] = {
